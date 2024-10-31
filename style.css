@@ -1,0 +1,134 @@
+.interface-interface-skeleton__sidebar {
+  transition: all 0.3s ease;
+  padding-top: 47px;
+}
+
+.interface-interface-skeleton__sidebar .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar .interface-complementary-area {
+  transition: all 0.3s ease;
+}
+
+.interface-interface-skeleton__sidebar[data-width="300"] .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar[data-width="300"] .interface-complementary-area {
+  width: 300px !important;
+}
+
+.interface-interface-skeleton__sidebar[data-width="350"] .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar[data-width="350"] .interface-complementary-area {
+  width: 350px !important;
+}
+
+.interface-interface-skeleton__sidebar[data-width="400"] .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar[data-width="400"] .interface-complementary-area {
+  width: 400px !important;
+}
+
+.interface-interface-skeleton__sidebar[data-width="450"] .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar[data-width="450"] .interface-complementary-area {
+  width: 450px !important;
+}
+
+.interface-interface-skeleton__sidebar[data-width="500"] .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar[data-width="500"] .interface-complementary-area {
+  width: 500px !important;
+}
+
+.interface-interface-skeleton__sidebar[data-width="550"] .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar[data-width="550"] .interface-complementary-area {
+  width: 550px !important;
+}
+
+.interface-interface-skeleton__sidebar[data-width="600"] .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar[data-width="600"] .interface-complementary-area {
+  width: 600px !important;
+}
+
+.interface-interface-skeleton__sidebar[data-width="650"] .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar[data-width="650"] .interface-complementary-area {
+  width: 650px !important;
+}
+
+.interface-interface-skeleton__sidebar[data-width="700"] .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar[data-width="700"] .interface-complementary-area {
+  width: 700px !important;
+}
+
+.interface-interface-skeleton__sidebar[data-width="750"] .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar[data-width="750"] .interface-complementary-area {
+  width: 750px !important;
+}
+
+.interface-interface-skeleton__sidebar[data-width="800"] .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar[data-width="800"] .interface-complementary-area {
+  width: 800px !important;
+}
+
+.interface-interface-skeleton__sidebar[data-width="850"] .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar[data-width="850"] .interface-complementary-area {
+  width: 850px !important;
+}
+
+.interface-interface-skeleton__sidebar[data-width="900"] .interface-complementary-area__fill,
+.interface-interface-skeleton__sidebar[data-width="900"] .interface-complementary-area {
+  width: 900px !important;
+}
+
+.sidebar-sizer {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: flex-end; */
+  position: absolute;
+  top: 46px;
+  top: 0;
+  left: 0;
+  /* right: 100%; */
+  width: auto;
+  width: 100%;
+  height: auto;
+  height: 47px;
+  color: white;
+  font-weight: 500;
+  background-color: #2c3338;
+  text-align: center;
+  /* transform-origin: bottom right;
+  transform: rotate(-90deg); */
+}
+
+.sidebar-sizer-btn,
+.sidebar-sizer-title {
+  display: inline-block;
+  padding: 12px;
+  transition: 0.3s ease background-color;
+}
+
+.sidebar-sizer .sidebar-sizer-title {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+}
+
+.sidebar-sizer .sidebar-sizer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--wp-components-color-accent, var(--wp-admin-theme-color, #3858e9));
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  padding: 12px 16px;
+}
+
+.sidebar-sizer .sidebar-sizer-btn span {
+  display: inline-block;
+  /* transform: rotate(90deg); */
+}
+
+.sidebar-sizer .sidebar-sizer-btn:hover {
+  background-color: var(
+    --wp-components-color-accent-darker-10,
+    var(--wp-admin-theme-color-darker-10, #2145e6)
+  );
+}
